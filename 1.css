@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Стили для логотипа */
+header img {
+    height: 50px;
+    margin-bottom: 20px; /* Отступ между логотипом и навигацией */
+    width: 300px;
+    height: 200px;
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение элементов */
+    width: 100%; /* Ширина навигации на всю ширину header */
+}
+
+nav ul li {
+    margin: 0 30px; /* Отступы между элементами списка */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Цвет при наведении */
+}
+
+.product-nas{
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+h2 {
+    text-align: center;
+}
+
+
+/* карточки */
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Стили для каждой карточки */
+.product-card {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Стили для изображения */
+.product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Стили для заголовка */
+.product-card h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+/* конец карточек */
